@@ -1,4 +1,8 @@
-public class Paper implements Item{
+package enumerated;
+
+import static enumerated.Outcome.*;
+
+public class Paper implements Item {
     @Override
     public Outcome compete(Item it) {
         return it.eval(this);
@@ -19,6 +23,6 @@ public class Paper implements Item{
         return LOSE;
     }
     public String toString(){
-        return "Paper";
+        return "enumerated.Paper";
     }
 }

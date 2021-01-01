@@ -1,6 +1,6 @@
 package enumerated;
-import java.util.;
-import static enumerated.Outcome.;
+import java.util.*;
+import static enumerated.Outcome.*;
 
 public interface Item {
     Outcome compete(Item it);
